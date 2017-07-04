@@ -1,0 +1,20 @@
+.footer {
+  .container {
+    @include breakpoint(tablet) {
+      padding: 1rem 1rem 1rem 21rem;
+    }
+    @include breakpoint(desktop) {
+      padding: 1rem 1rem 1rem 27rem;
+    }
+  }
+  .footer-text {
+    width:100%;
+    display:block;
+    color: $grey;
+    font-weight:400;
+    font-size:0.8rem;
+    @include breakpoint(tablet) {
+      font-size: 1rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+{% include headdata.html %}
+</head>
+<body class="home-page">
+  {% include header.html %}
+  <div class="container">
+    <main class="blog-feed">
+      <ul class="blog-feed__list">
+        {% for post in site.posts %}
+          <li class="blog-feed__post">
+            <a class="blog-feed__post-title" href="{{ post.url }}">{{ post.title }}</a>
+            <p class="blog-feed__post-date">{{ post.date | date: '%B %d, %Y' }}</p>
+            <p class="blog-feed__post-excerpt">{{ post.content | strip_html | truncatewords:45 }}</p>
+            <a class="btn" href="{{ post.url }}">Read More </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </main>
+  </div>
+  {% include footdata.html %}
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+{% include headdata.html %}
+</head>
+<body class="contact-page">
+  {% include header.html %}
+  <div class="container">
+    <main class="contact-page">
+      <h1>Need to get in touch?</h1>
+      <p>Hit me up using the contact form below if you'd like to get in touch. Alternatively, if you're apart of all the social network madness feel free to get in touch on any of them. You can click through to my profiles using the buttons in the nav bar.</p>
+      <form class="contact-form" action="//flipmail.co/api/YBMajjyxQ9bwy5foNWV3" method="post">
+        <label>
+          <p>Name</p>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          <p>Email</p>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <p>Message</p>
+          <input type="text" name="_honey" value="" style="display:none">
+          <textarea name="message" required></textarea>
+        </label>
+         <button class="btn contact-form--button" type="submit">Submit Form</button>
+      </form>
+    </main>
+  </div>
+  {% include footdata.html %}
+</body>
+</html>

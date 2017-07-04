@@ -1,0 +1,37 @@
+.blog-feed {
+  .blog-feed__list {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+  .blog-feed__post {
+    display: block;
+    width: 100%;
+    margin: 0 0 2rem 0;
+    @include breakpoint(desktop) {
+      margin-bottom:4rem;
+    }
+    .blog-feed__post-title {
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 700;
+      color: $black;
+      @include breakpoint(tablet) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+      }
+    }
+    .blog-feed__post-date {
+      color: $grey;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+    .blog-feed__post-excerpt {
+      margin-top: 1rem;
+      font-size: 1rem;
+      @include breakpoint(tablet) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

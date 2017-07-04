@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+{% include headdata.html %}
+</head>
+<body class="blog-page">
+
+  {% include header.html %}
+
+  <div class="container">
+
+    <main class="blog-post">
+      <h1>{{ page.title }}</h1>
+      <p class="blog-post__date">{{ page.date | date: '%B %d, %Y' }}</p>
+      {{ page.content }}
+    </main>
+    {% include sharers.html %}
+
+    <div id="disqus_thread" class="disqus"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'dbridgmancouk';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  </div>
+
+<footer>
+  {% include footdata.html %}
+</footer>
+</body>
+</html>

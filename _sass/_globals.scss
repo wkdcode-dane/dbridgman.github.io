@@ -1,0 +1,83 @@
+body,html {
+  font-family: $maintext;
+  font-size: 16px;
+  color: $black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+}
+.container {
+  position: relative;
+  box-sizing: border-box;
+  padding:2rem 1rem;
+  width: 100%;
+  max-width: 78rem;
+  @include breakpoint(tablet) {
+    padding: 2rem 2rem 4rem 21rem;
+  }
+  @include breakpoint(desktop) {
+    padding: 2rem 2rem 4rem 27rem;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  @include breakpoint(tablet) {
+    font-size:1.6rem;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  @include breakpoint(tablet) {
+    font-size:3.5rem;
+    line-height: 3.5rem;
+  }
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  @include breakpoint(tablet) {
+    font-size: 1.3rem;
+  }
+}
+
+a {
+  color:$black;
+  &:visited {
+    color:$black;
+  }
+}
+
+ul,ol {
+  padding: 2rem 1rem;
+  background-color: $lightgrey;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  @include breakpoint(tablet) {
+    padding: 2rem 3rem;
+  }
+  li {
+    font-size: 1rem;
+    margin-left: 1rem;
+    list-style-type: disc;
+    line-height: 2rem;
+    margin-top: 0.5rem;
+    @include breakpoint(tablet) {
+      font-size: 1.3rem;
+    }
+  }
+}
+strong {
+  font-weight:700;
+}
+em {
+  font-style:italic;
+  font-weight: 700;
+}

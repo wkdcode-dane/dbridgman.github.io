@@ -1,0 +1,60 @@
+---
+---
+// Variables
+$black: #424242;
+$white: #fff;
+$grey: #8c8c8c;
+$lightgrey: #eaeaea;
+$purple: #421e3a;
+
+$maintext: 'Source Sans Pro', sans-serif;
+$headtext: 'Rozha One', serif;
+
+//Mixins
+
+//Breakpoints
+
+@mixin breakpoint($point) {
+
+  @if $point == desktop {
+    @media (min-width: 1440px) { @content ; }
+ }
+   @else if $point == laptop {
+    @media (min-width: 1024px) { @content ; }
+ }
+  @else if $point == tablet {
+    @media (min-width: 769px)  { @content ; }
+ }
+ @else if $point == mobile {
+    @media (max-width: 350px)  { @content ; }
+
+ }
+}
+
+//Clear floats (Self Explanatory)
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* -------- IMPORTS -------- */
+
+// Components
+@import "reset";
+@import "mixins";
+@import "globals";
+// Includes
+@import "header";
+@import "footer";
+@import "buttons";
+@import "syntax-highlighting";
+@import "sharers";
+// Page Templates
+@import "blog-feed";
+@import "blog-post";
+@import "about";
+@import "contact";

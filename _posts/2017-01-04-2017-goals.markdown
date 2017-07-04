@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "2017 - My Web Development New Years Resolutions"
+date:   2017-01-04
+---
+
+**Holy moly, where did 2016 go? In a moment of pure self indulgence I'm going to look onward into 2017 at some of my goals for the year and what excites me most about web development right now. And hopefully in my moment of self indulgence, pass on some enthusiasm!**
+
+The cynical people out there would say that a new year is just another day, though however cynical a person may be it's always great to kick back and think about just how far you've come over the course of a year. I'm sure many of you could relate to those times where you remember truly struggling at something, then later down the line looking at the very same problem and thinking "Wow, this is not as bad as I originally thought!". These moments of realisation are fantastic to think about, and then remembering that moment of elation when you overcame that original problem you found so challenging. I always feel it's wise to look forward at where you want to go next with that feeling of elation fresh in your mind, it cultivates excitement and enthusiasm that is great to direct towards your goals.
+
+## Stepping Outside Coding Bubble
+
+I want to be sure that I'm not just focusing on things from just a coding perspective, but *all* aspects of the world of web. As many of you know, there is a hell of a lot more to being a Web Developer than just the code! Whether it's looking at how you communicate with your clients and peers, what you do in your spare time and so on.
+
+So lets start off shall we? The first one will be predictable... probably.
+
+## 1. 'Learn Javascript deeply'
+
+So that little statement has rippled through the net the past few years, and for me this year it's no different. I feel my Javascript has come on massively in 2016, and this year I want to capitalise on that and start to properly learn the mechanics behind the language. It is all well and good welding some code together, but to truly understand what is going on under the hood is the difference between a regular JS Developer, and an exceptional one. It's so important to strive to fully comprehend the code you write, to a point it becomes far more than just a job, but an art. Artistically written code doesn't drag it's knuckles along the ground, it soars!
+
+The statistics are there to support my enthusiasm for JS, Stack Overflow's <a href="http://stackoverflow.com/research/developer-survey-2016" target="\_blank">2016 developer survey</a> recently ranked it as their most popular technology, not just by a little - but a lot, with 85.3% of their user base with their fingers in the Javascript pie. Not only this but considering the sheer amount of JS driven frameworks that are released on a monthly basis is staggering, and as a developer it's practically impossible to learn absolutely everything. So pooling more time into good old vanilla JS is a real safe bet for future proofing your skills, since a deep understanding of JS just means these frameworks become ten times easier to pick up as time goes on, as one framework is inevitably replaced by another. This just means you can then pick and choose the ones you feel are more appropriate for you.
+
+Right now I'm kicking off the year working my way through a series of books titled 'You Don't Know JS', by an author called Kyle Simpson, this series of books have come highly recommended to me from a lot of other developers. I'm currently halfway through the second book on 'Scope and Closures', and I must admit I have learnt some really interesting bits along the way.
+
+## 2. Be an active community member
+
+This is something I feel very passionate about, despite the web development industry being such a vocal one, with so much information at our fingertips and other like minded people out there to chat to and learn from. I find there are still lots of people out there that box themselves off from it, and as a result miss out on some fantastic up and coming technologies, or chances to learn something new. Why miss out on any of that? I have a few things in mind for things that I intend to do:
+
+* **I should utilise <a href="https://github.com/" target="\_blank">GitHub</a> to it's full potential.** <br> I must admit, my main use for GitHub has mainly been to store my clients websites inside a secure repository. On top of this it's great to contribute to public repositories on emerging technologies, and maintain old ones. I mean what's not to like? You're helping the community as well as learning something yourself.
+* **I should actively create and share on Codepen.** <br>I love Codepen, I spent so many hours last year creating and sharing pens, many of which had hundreds, and some even thousands of views. This helped me refine my own code through the communities critique, but also spark some great Twitter and email conversations. Not only this, but viewing other peoples pens and seeing what whacky experiments have been created is always great!
+* **Attend my first web conference**<br> I'm going to throw my hands up here and admit something... I've never been to a web conference in my life, and I have some serious regrets for having not been to any. It's a great way of making more industry connections, and chatting to other developers about current web affairs, on top of learning a few helpful tips and tricks.
+* **Blog More**<br>This to me is another important one, I feel that writing about a subject is a great step towards truly understanding it. Blog posts, for the most part require a large degree of research and require a decent level of understanding in order to produce something quality. The benefits of that should be self explanatory!
+
+## 3. Dive into Three.js
+
+When I first started getting *really* into my development, I remember sitting in total awe at some of the possibilities of using WebGL, just having fully fledged 3D/2D graphics, and animation just seemed totally out there to me at the time. Along came <a href="https://threejs.org/" target="\_blank">Three.js</a>, which is a hugely popular Javascript 3D library that made WebGL become a whole lot simpler to pick up and play with.
+
+Only a couple of days ago I picked up and played with the library for the first time, to my amazement all of those websites I used to look at back in the day suddenly became a whole lot more straightforward to create. The three.js site is superbly documented and does a great job of explaining the syntax, and showcasing the possibilities with a host of different examples and source code samples to boot. Not only this but there are plenty of great YouTube videos out there that teach you the basics of the library to get you going. One series I liked was from a YouTuber <a href="https://www.youtube.com/playlist?list=PL08jItIqOb2qyMOhtEUoLh100KpccQiRf">CJ Gammon</a>, he talks you through everything from setting a basic scene, to playing around with geometry and shaders.
+
+Three.js really does tickle my creative side, within minutes of jumping into the library I had a red cube spinning around on my screen. It's great fun, and really accessible!
+
+## 4. Not to forget there is a world out there
+
+Last but not least I end with something that is perhaps more important than anything above for me, and probably rings true for many who are passionate about their line of work. When you're really passionate about something it's so easy to forget everything else around you, as much as you want to spend every waking moment pouring over it - it's so vital to escape the bubble and remember there is a whole universe of possibilities out there to explore. In our industry you often find yourself thinking that people just lock themselves away in a room and do nothing but code all day and night, in the social media age we live in it's easy to draw that conclusion. I'm victim of thinking that all the time, and it's SO easy to get stressed out about it. In reality those hardcore web devs do actually leave the house and stimulate their minds with other things, otherwise burn out would be almost inevitable. The last thing you want to do is resent your job.
+
+So I intend to make sure I don't have too many days where I leave the studio 3 hours late, then going home to code some more. I need to create time to do other things, like spending time with my family/friends, getting back into my running, dust of my Cintiq and start doing some illustration again, play some videogames (#pcmr), as well as making sure I have a beer or two along the way! This ensures I properly recharge my batteries and always go into work with a smile on my face! :)
