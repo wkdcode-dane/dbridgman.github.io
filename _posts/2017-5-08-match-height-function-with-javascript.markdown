@@ -9,7 +9,7 @@ date:   2017-07-19
 
 Many of you will be shouting at the screen right now saying 'Dane! We can just use flexbox now mate, the web is moving on!', however I would argue there are still cases where using just CSS will not quite solve your problems for you. Especially if these elements are at different points of the page.
 
-##The Code
+## The Code
 
 Please bear in mind my example contains ES6 syntax, so it'll only work in IE11+ unless you pull Babel out of your toolbox - or switch a few bits out yourself. 
 
@@ -44,7 +44,7 @@ function matchHeight(elems) {
 
 {% endhighlight %}
 
-##Breaking It Down
+## Breaking It Down
 
 So to start we need to grab all the elements that have been fed into the function, then push them into an array to allow us to loop through them with ease. Then of course declare a `maxHeight` variable for us to tap into later.
 
